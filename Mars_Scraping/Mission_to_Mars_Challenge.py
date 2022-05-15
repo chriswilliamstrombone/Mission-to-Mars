@@ -1,6 +1,3 @@
-
-
-
 # Import Splinter, BeautifulSoup, and Pandas
 from splinter import Browser
 from bs4 import BeautifulSoup as soup
@@ -86,7 +83,7 @@ browser.visit(url)
 hemisphere_image_urls = []
 
 # 3. Write code to retrieve the image urls and titles for each hemisphere.
-# 3. Write code to retrieve the image urls and titles for each hemisphere.
+
 for i in range(4):
     #create empty dictionary
     hemispheres = {}
